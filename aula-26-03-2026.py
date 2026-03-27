@@ -79,11 +79,11 @@ faixa2 = (salario > 2000 and salario <= 3500)
 faixa3 = (salario > 3500 and salario <= 5000)
 faixa4 = (salario > 5000)
 
-if faixa1:
+if faixa1 == True:
     desconto = 0
-elif faixa2:
+elif faixa2 == True:
     desconto = 0.10
-elif faixa3:
+elif faixa3 == True:
     desconto = 0.20
 else:
     desconto = 0.275
